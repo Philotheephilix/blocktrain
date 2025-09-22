@@ -1,20 +1,22 @@
-# Node modules
-/node_modules
+node_modules
 
-# Compilation output
-/dist
-
-# pnpm deploy output
-/bundle
-
-# Hardhat Build Artifacts
-/artifacts
-
-# Hardhat compilation (v2) support directory
-/cache
-
-# Typechain output
-/types
-
-# Hardhat coverage reports
+#Hardhat files
+cache
+artifacts
+/.idea/
+/typechain/
+/dist/
+/yarn-error.log
+/deployments/dev/
+/deployments/localhost/
+/deployments/proxy/
+/typechain-types/
+/reports/gas-used-output.color
 /coverage
+/coverage.json
+/.DS_Store
+.DS_Store
+/contracts/dist/
+/contracts/types/
+
+.env
